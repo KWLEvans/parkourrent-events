@@ -1,0 +1,17 @@
+name = Route Maps
+description = Add and display start locations for parkour routes using google maps
+core = 7.x
+package = Features
+dependencies[] = shoe_posts
+dependencies[] = simple_gmap
+dependencies[] = text
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[field_base][] = field_address
+features[field_instance][] = node-map-body
+features[field_instance][] = node-map-field_address
+features[node][] = map
+features[views_view][] = maps
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][features] = features
