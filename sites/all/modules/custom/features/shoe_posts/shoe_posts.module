@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Shoe Posts feature.
+ */
+
+include_once 'shoe_posts.features.inc';
